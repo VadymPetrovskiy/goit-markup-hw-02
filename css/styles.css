@@ -1,0 +1,327 @@
+
+/* header */
+
+.site-navigation {
+    background: #FFFFFF; 
+}
+
+.site-nav {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em; 
+}
+.WebStudio {
+    text-decoration: none;
+}
+
+
+
+.Web {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: #4D5AE5;
+    
+    
+}
+
+.Studio {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: #2E2F42;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-transform: uppercase;
+    
+    
+}
+
+.nav-list {
+    list-style-type: none;
+    
+}
+
+
+
+
+.nav-items {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2E2F42;
+}
+
+
+
+.nav-items:hover, :focus {
+    color: #404BBF;
+    
+}
+
+
+
+.contacts {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.contacts-list {    
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.contacts-items {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.contacts-items:hover, :focus {
+    color: #404BBF;
+}
+
+/* Main */
+
+/* first section */
+
+.first-section {
+    background: #2E2F42;
+    color: #FFFFFF;
+    
+}
+
+.main-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    
+}
+
+.main-button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    
+}
+
+.main-button:hover, :focus {
+    background: #404BBF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+    
+    
+
+/* second-section */
+
+.second-section {
+    background: #FFFFFF; 
+}
+
+.second-section-title {
+    color: #FFFFFF;
+}
+
+.features-list {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.features-list-items {
+
+}
+
+.features-titles {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.features-items {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* third section */
+
+.third-section {
+    background: #FFFFFF; 
+}
+
+.secondary-section-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.products-list {
+    list-style-type: none;
+}
+
+/* fourth-section */
+
+.fourth-section {
+    background: #F4F4FD;
+}
+
+.staff-list {
+    list-style-type: none;
+}
+
+.staff-persons-list {
+
+}
+
+.staff-list-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.about-staff {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* footer */
+
+.about-company {
+    background: #2E2F42;
+}
+
+.Studio-footer {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
+}
+
+.about-company-item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+}
+
+/* prtofolio */
+
+/* button */
+
+.products {
+    background: #FFFFFF;
+}
+
+.nav-buttons {
+    font-family: 'Roboto';  
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+}
+
+.nav-buttons:hover, :focus {
+    color: #FFFFFF;
+    background: #404BBF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+/* section */
+
+.products-lists {
+    background: #FFFFFF;
+}
+
+.products-list-title {
+    color: #FFFFFF;
+}
+
+.products-list-items {
+    list-style-type: none;
+}
+
+.products-titles {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.about-products {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
