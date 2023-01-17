@@ -12,6 +12,12 @@
     line-height: 1.5;
     letter-spacing: 0.02em; 
 }
+
+.nav-items:hover, :focus {
+    color: #404BBF;
+    background-color: #FFFFFF;
+}
+
 .WebStudio {
     text-decoration: none;
 }
@@ -20,27 +26,25 @@
 
 .Web {
     font-family: 'Raleway';
+    font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.33;
-    align-items: center;
+    line-height: 21px;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: #4D5AE5;
-    
     
 }
 
 .Studio {
     font-family: 'Raleway';
+    font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.33;
-    align-items: center;
+    line-height: 21px;
     letter-spacing: 0.03em;
-    color: #2E2F42;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     text-transform: uppercase;
-    
+    color: #2E2F42;
     
 }
 
@@ -65,7 +69,6 @@
 
 
 .nav-items:hover, :focus {
-    color: #404BBF;
     
 }
 
@@ -128,17 +131,36 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
+    letter-spacing: 0.04em;
     color: #FFFFFF;
-    background-color: #4D5AE5;
-    
+    background: #4D5AE5;
 }
 
-.main-button:hover, :focus {
+.main-button:hover {
     background: #404BBF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+    cursor: pointer;
 }
+
+.main-button:focus {
+    color: #FFFFFF;
+    background: #404BBF;
+}
+
+
+.section-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+
     
+
     
 
 /* second-section */
@@ -247,10 +269,11 @@
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 21px;  
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #F4F4FD;
+
 }
 
 .about-company-item {
@@ -265,19 +288,22 @@
 
 /* prtofolio */
 
-/* button */
+/* section */
 
 .products {
     background: #FFFFFF;
 }
 
 .nav-buttons {
-    font-family: 'Roboto';  
+    background: #FFFFFF;
+}
+
+.nav-buttons-items {
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
-    text-align: center;
+    line-height: 24px;  
     letter-spacing: 0.04em;
     color: #4D5AE5;
     background: #F4F4FD;
@@ -285,14 +311,16 @@
     border-radius: 4px;
 }
 
-.nav-buttons:hover, :focus {
+.nav-buttons-items:hover {
     color: #FFFFFF;
     background: #404BBF;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
+    cursor: pointer;
 }
 
-/* section */
+.nav-buttons-items:focus {
+    color: #FFFFFF;
+    background: #404BBF;
+}
 
 .products-lists {
     background: #FFFFFF;
